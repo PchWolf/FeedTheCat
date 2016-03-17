@@ -14,7 +14,7 @@
     <section class="display">
         <div class="item item1">
             <label>
-                <input type="checkbox" class="select" hidden>
+                <input type="checkbox" id="select1" class="select" hidden>
             <span class="item-box">
                 <div class="item-text">
                     <div class="tag">Сказочное заморское яство</div>
@@ -34,12 +34,12 @@
                 <div class="pack-units">КГ</div>
             </div>
             <div class="description">
-                <p>Чего сидишь? Порадуй котэ, <a href="index.html" class="link">купи</a></p>
+                <p>Чего сидишь? Порадуй котэ, <a href="#select1" class="link" onClick="document.getElementById('select1').checked=true">купи</a></p>
             </div>
         </div>
         <div class="item item2">
             <label>
-                <input type="checkbox" class="select" hidden>
+                <input type="checkbox" class="select" id="select2" hidden>
             <span class="item-box">
                 <div class="item-text">
                     <div class="tag">Сказочное заморское яство</div>
@@ -59,12 +59,12 @@
                 <div class="pack-units">КГ</div>
             </div>
             <div class="description">
-                <p>Чего сидишь? Порадуй котэ, <a href="index.html" class="link">купи</a></p>
+                <p>Чего сидишь? Порадуй котэ, <a href="#select2" class="link" onClick="document.getElementById('select2').checked=true">купи</a></p>
             </div>
         </div>
         <div class="item item3">
             <label>
-                <input type="checkbox" class="select" hidden disabled>
+                <input type="checkbox" class="select" id="select3" hidden disabled>
             <span class="item-box">
                 <div class="item-text">
                     <div class="tag">Сказочное заморское яство</div>
@@ -85,7 +85,7 @@
                 <div class="pack-units">КГ</div>
             </div>
             <div class="description">
-                <p>Чего сидишь? Порадуй котэ, <a href="index.html" class="link">купи</a></p>
+                <p>Чего сидишь? Порадуй котэ, <a href="#select3" class="link" onClick="document.getElementById('select3').checked=true">купи</a></p>
             </div>
         </div>
     </section>
